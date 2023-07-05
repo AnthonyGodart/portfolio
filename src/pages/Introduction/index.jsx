@@ -2,7 +2,7 @@ import styles from './introduction.module.css';
 
 function Introduction(){
     return(
-        <section className={styles.container}>
+        <main className={styles.container}>
             <h3 className={styles.title}>Présentation</h3>
             <p className={styles.paragraph}>
             Avec 14 ans d'expérience dans l'industrie de la maintenance automobile, j'ai récemment pris une décision audacieuse : me reconvertir en tant que Développeur web. <br /> <br />
@@ -18,7 +18,7 @@ function Introduction(){
             N'hésitez pas à me contacter pour planifier une rencontre.
             Merci pour votre attention et j'ai hâte de contribuer à votre succès !
             </p>
-        </section>
+        </main>
     );
 }
 

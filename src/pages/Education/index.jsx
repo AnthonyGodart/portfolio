@@ -2,7 +2,7 @@ import styles from './education.module.css'
 
 function Education(){
     return(
-        <section className={styles.container}>
+        <main className={styles.container}>
             <h3 className={styles.title}>Formation</h3>
             <article className={styles.paragraph}>
                 <h4>Bac + 2 - Développeur web 2023 </h4>
@@ -26,7 +26,7 @@ function Education(){
             <article className={styles.paragraph}>
                 <h4>BAC S option Sciences de l'Ingénieur 2006</h4>
             </article>
-        </section>
+        </main>
     );
 }
 

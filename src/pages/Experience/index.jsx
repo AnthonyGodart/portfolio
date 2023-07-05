@@ -2,7 +2,7 @@ import styles from './experience.module.css'
 
 function Experience(){
     return(
-        <section className={styles.container}>
+        <main className={styles.container}>
             <h3 className={styles.title}>Expérience Professionnelle</h3>
             <article className={styles.paragraph}>
                 <h4>Développeur Junior</h4>
@@ -40,7 +40,7 @@ function Experience(){
                 Entretien et diagnostic de véhicules automobiles
                 </p>
             </article>
-        </section>
+        </main>
     );
 }
 
