@@ -6,6 +6,7 @@ import SophieBluel from "../../images/SophieBluel.png";
 import NinaCarducci from "../../images/NinaCarducci.png";
 import Kasa from "../../images/Kasa.png";
 import MonVieuxGrimoire from "../../images/MonVieuxGrimoire.png";
+import Portfolio from "../../images/Chantier.png"
 
 const data = {
   projet1: {
@@ -37,6 +38,12 @@ const data = {
     link: "https://github.com/AnthonyGodart/Projet7_godart_anthony_062023.git",
     description: "Mettre en oeuvre les opérations CRUD et stocker des données de manière sécurisée, implémenter un modèle logique de données, conformément à la règlementation. Cliquez pour accéder au code.",
     image: `${MonVieuxGrimoire}`,
+  },
+  projet6: {
+    title: "Portfolio",
+    link: "https://github.com/AnthonyGodart/portfolio.git",
+    description: "Portfolio d'Anthony Godart",
+    image: `${Portfolio}`,
   },
 };
 
