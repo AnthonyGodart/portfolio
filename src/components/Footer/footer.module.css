@@ -1,0 +1,16 @@
+.footer{
+    background-color: rgb(33, 142, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.link{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.paragraph{
+    color: #FFF;
+}

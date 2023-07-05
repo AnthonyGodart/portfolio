@@ -1,0 +1,11 @@
+.background{
+    background-color: azure;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url('../../images/1659179647187-removebg-preview.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 1;
+}

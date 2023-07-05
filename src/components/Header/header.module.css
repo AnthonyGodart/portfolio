@@ -1,0 +1,51 @@
+.background{
+    background-color: rgb(33, 142, 36);
+    color: #FFF;
+}
+
+.topHeader{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+.contact{
+    color: #FFF;
+    text-decoration: none;
+}
+.navBar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.link{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-top: 2px solid black;
+    border-left: 3px solid black;
+    border-right: 0.5px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.activeLink{
+    background-color: rgb(55, 235, 61);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+    .navBar{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 0;
+    }
+    .link{
+        border-bottom: none !important;
+    }
+}

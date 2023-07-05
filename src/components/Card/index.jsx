@@ -1,0 +1,102 @@
+import { Card, Col, Text } from "@nextui-org/react";
+import { useState } from "react";
+import styles from "./card.module.css";
+import Booki from "../../images/Booki.png";
+import SophieBluel from "../../images/SophieBluel.png";
+import NinaCarducci from "../../images/NinaCarducci.png";
+import Kasa from "../../images/Kasa.png";
+import MonVieuxGrimoire from "../../images/MonVieuxGrimoire.png";
+
+const data = {
+  projet1: {
+    title: "Booki - Locations de vacances à Marseille",
+    link: "https://github.com/AnthonyGodart/Projet2_godart_anthony_03022023.git",
+    description: "Intégration HTML et CSS du site de réservation en ligne Booki, en conformité avec une maquette, utilisation d'un kit FontAwesome, implémentation d'une interface responsive. Cliquez pour accéder au code.",
+    image: `${Booki}`,
+  },
+  projet2: {
+    title: "Sophie Bluel - Architecte",
+    link: "https://github.com/AnthonyGodart/Projet3_godart_anthony_21022023.git",
+    description: "Manipulation des éléments du DOM et gestion des événements utilisateurs avec JavaScript, récupération de données utilisateur dans le JavaScript via des formulaires. Cliquez pour accéder au code.",
+    image: `${SophieBluel}`,
+  },
+  projet3: {
+    title: "Nina Carducci Photographe - Optimisation et SEO",
+    link: "https://github.com/AnthonyGodart/Projet5_godart_anthony_04052023.git",
+    description: "Optimiser les performances du site, débugger le site avec les Chrome Devtools, rédiger un cahier de recettes pour tester le site. Cliquez pour accéder au code.",
+    image: `${NinaCarducci}`,
+  },
+  projet4: {
+    title: "Kasa - Agence de location immobilière entre particuliers",
+    link: "https://github.com/AnthonyGodart/Projet6_godart_anthony_052023.git",
+    description: "Initialiser une application avec Create React App, développer les éléments de l'interface d'un site web grâce à des composants React, configurer la navigation entre les pages de l'application avec React Router.  Cliquez pour accéder au code.",
+    image: `${Kasa}`,
+  },
+  projet5: {
+    title: "Mon Vieux Grimoire - Site de notation de livres",
+    link: "https://github.com/AnthonyGodart/Projet7_godart_anthony_062023.git",
+    description: "Mettre en oeuvre les opérations CRUD et stocker des données de manière sécurisée, implémenter un modèle logique de données, conformément à la règlementation. Cliquez pour accéder au code.",
+    image: `${MonVieuxGrimoire}`,
+  },
+};
+
+function MyCard() {
+  const [hoveredCard, setHoveredCard] = useState(null);
+
+  const handleMouseEnter = (projetKey) => {
+    setHoveredCard(projetKey);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredCard(null);
+  };
+
+  return (
+    <>
+      {Object.keys(data).map((projetKey) => {
+        const projet = data[projetKey];
+
+        const isHovered = hoveredCard === projetKey;
+
+        return (
+          <a
+            href={projet.link}
+            target="_blank"
+            rel="noreferrer"
+            className={styles.cardLink}
+            key={projetKey}
+            onMouseEnter={() => handleMouseEnter(projetKey)}
+            onMouseLeave={handleMouseLeave}
+          >
+            <Card responsive className={isHovered ? styles.hoveredCard : ''}>
+  {!isHovered && (
+    <Card.Header className={styles.header}>
+      <Col>
+        <Text h4 color="black" margin="0">
+          {projet.title}
+        </Text>
+      </Col>
+    </Card.Header>
+  )}
+  <Card.Image
+    src={projet.image}
+    objectFit="cover"
+    width="100%"
+    height={isHovered ? 250 : 150}
+    alt="Card image background"
+  />
+  {isHovered && (
+    <Card.Footer className={styles.footer}>
+      <Text className={styles.description}>{projet.description}</Text>
+    </Card.Footer>
+  )}
+</Card>
+
+          </a>
+        );
+      })}
+    </>
+  );
+}
+
+export default MyCard;
