@@ -48,16 +48,63 @@ const data = {
 };
 
 function MyCard() {
+  const isMobileDevice = /Mobile/.test(navigator.userAgent);
+
+  const [activeCard, setActiveCard] = useState(null);
   const [hoveredCard, setHoveredCard] = useState(null);
+
+  const handleClick = (projetKey) => {
+    setActiveCard(projetKey === activeCard ? null : projetKey);
+  };
 
   const handleMouseEnter = (projetKey) => {
     setHoveredCard(projetKey);
   };
-
   const handleMouseLeave = () => {
     setHoveredCard(null);
   };
 
+  if (isMobileDevice){
+    return (
+    <>
+      {Object.keys(data).map((projetKey) => {
+        const projet = data[projetKey];
+        const isActive = projetKey === activeCard;
+
+        return (
+          <div
+            key={projetKey}
+            onClick={() => handleClick(projetKey)}
+          >
+            <Card responsive className={isActive ? 'active-card' : ''}>
+              {!isActive && (
+                <Card.Header>
+                  <Col>
+                    <Text h4 color="black" margin="0">
+                      {projet.title}
+                    </Text>
+                  </Col>
+                </Card.Header>
+              )}
+              <Card.Image
+                src={projet.image}
+                objectFit="cover"
+                width="100%"
+                height={isActive ? 250 : 150}
+                alt="Card image background"
+              />
+              {isActive && (
+                <Card.Footer>
+                  <Text>{projet.description}</Text>
+                </Card.Footer>
+              )}
+            </Card>
+          </div>
+        );
+      })}
+    </>
+  );
+  } else {
   return (
     <>
       {Object.keys(data).map((projetKey) => {
@@ -104,6 +151,7 @@ function MyCard() {
       })}
     </>
   );
+  }
 }
 
 export default MyCard;
