@@ -15,7 +15,7 @@ root.render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/Introduction" element={<Introduction />} />
+        <Route path="/" element={<Introduction />} />
         <Route path="/Education" element={<Education />} />
         <Route path="/Experience" element={<Experience />} />
         <Route path="/Achievements" element={<Achievements />} />
