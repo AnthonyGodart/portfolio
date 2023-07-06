@@ -2,6 +2,7 @@ import styles from './achievements.module.css';
 import MyCard from '../../components/Card';
 
 function Achievements(){
+    if (typeof window !== 'undefined') {
     const isMobileDevice = /Mobile/.test(navigator.userAgent);
     if(isMobileDevice){
     return(
@@ -26,6 +27,7 @@ function Achievements(){
             </main>
         );
     }
+}
 }
 
 export default Achievements;
