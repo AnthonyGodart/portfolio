@@ -1,12 +1,12 @@
 import { Card, Col, Text } from "@nextui-org/react";
 import { useState } from "react";
 import styles from "./card.module.css";
-import Booki from "../../images/Booki.png";
-import SophieBluel from "../../images/SophieBluel.png";
-import NinaCarducci from "../../images/NinaCarducci.png";
-import Kasa from "../../images/Kasa.png";
-import MonVieuxGrimoire from "../../images/MonVieuxGrimoire.png";
-import Portfolio from "../../images/Chantier.png"
+import Booki from "../../images/Booki.webp";
+import SophieBluel from "../../images/SophieBluel.webp";
+import NinaCarducci from "../../images/NinaCarducci.webp";
+import Kasa from "../../images/Kasa.webp";
+import MonVieuxGrimoire from "../../images/MonVieuxGrimoire.webp";
+import Portfolio from "../../images/Chantier.webp"
 
 const data = {
   projet1: {
@@ -95,7 +95,11 @@ function MyCard() {
               />
               {isActive && (
                 <Card.Footer>
-                  <Text>{projet.description}</Text>
+                  <Text>
+                    <a className={styles.cardLink} href={projet.link}>
+                      {projet.description}
+                    </a>
+                  </Text>
                 </Card.Footer>
               )}
             </Card>
