@@ -76,7 +76,7 @@ function MyCard() {
             key={projetKey}
             onClick={() => handleClick(projetKey)}
           >
-            <Card responsive className={isActive ? 'active-card' : ''}>
+            <Card responsive className={isActive ? 'activeCard' : ''}>
               {!isActive && (
                 <Card.Header className={styles.header}r>
                   <Col>
