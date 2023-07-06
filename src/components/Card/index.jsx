@@ -78,7 +78,7 @@ function MyCard() {
           >
             <Card responsive className={isActive ? 'active-card' : ''}>
               {!isActive && (
-                <Card.Header>
+                <Card.Header className={styles.header}r>
                   <Col>
                     <Text h4 color="black" margin="0">
                       {projet.title}
@@ -94,7 +94,7 @@ function MyCard() {
                 alt="Card image background"
               />
               {isActive && (
-                <Card.Footer>
+                <Card.Footer className={styles.footer}>
                   <Text>
                     <a className={styles.cardLink} href={projet.link}>
                       {projet.description}
