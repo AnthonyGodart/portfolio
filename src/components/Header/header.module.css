@@ -43,4 +43,7 @@
     .link{
         border-bottom: none !important;
     }
+    .contact{
+        white-space: nowrap;
+    }
 }
