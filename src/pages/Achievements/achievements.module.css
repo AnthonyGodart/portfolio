@@ -1,9 +1,9 @@
 .container{
-    background-color: rgb(219, 243, 214);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    color: #FFF;
 }
 
 .title{

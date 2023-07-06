@@ -1,8 +1,8 @@
 .container{
-    background-color: rgb(219, 243, 214);
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #FFF;
 }
 
 .title{
@@ -12,6 +12,9 @@
 }
 
 .paragraph{
+    background-color: rgba(48, 48, 48, 0.7);
+    border-radius: 10px;
     padding: 10px;
     width: 80%;
+    margin-bottom: 20px;
 }
