@@ -2,6 +2,10 @@
     height: 200px;
 }
 
+.activeCard{
+    height: 200px;
+}
+
 .header{
     position: absolute;
     z-index: 1;
