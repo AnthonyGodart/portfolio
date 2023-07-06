@@ -6,7 +6,7 @@ import SophieBluel from "../../images/SophieBluel.webp";
 import NinaCarducci from "../../images/NinaCarducci.webp";
 import Kasa from "../../images/Kasa.webp";
 import MonVieuxGrimoire from "../../images/MonVieuxGrimoire.webp";
-import Portfolio from "../../images/Chantier.webp"
+import Portfolio from "../../images/Portfolio.webp";
 
 const data = {
   projet1: {
