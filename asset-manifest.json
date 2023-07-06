@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cae98c25.css",
-    "main.js": "/portfolio/static/js/main.2f5d4a9d.js",
+    "main.css": "/portfolio/static/css/main.e100c179.css",
+    "main.js": "/portfolio/static/js/main.570f9507.js",
+    "static/media/Background.jpg": "/portfolio/static/media/Background.fdcbd6c3a59244e9ab3f.jpg",
     "static/media/Kasa.png": "/portfolio/static/media/Kasa.7c7dfb98502f8eed8330.png",
     "static/media/MonVieuxGrimoire.png": "/portfolio/static/media/MonVieuxGrimoire.104ae34beca0ee353336.png",
     "static/media/SophieBluel.png": "/portfolio/static/media/SophieBluel.1ac7a4cf3cbfd3fc0e41.png",
@@ -10,11 +11,11 @@
     "static/media/1659179647187-removebg-preview.png": "/portfolio/static/media/1659179647187-removebg-preview.c8dbcdb6473473812231.png",
     "static/media/Chantier.png": "/portfolio/static/media/Chantier.861b83e7c62312ea4360.png",
     "index.html": "/portfolio/index.html",
-    "main.cae98c25.css.map": "/portfolio/static/css/main.cae98c25.css.map",
-    "main.2f5d4a9d.js.map": "/portfolio/static/js/main.2f5d4a9d.js.map"
+    "main.e100c179.css.map": "/portfolio/static/css/main.e100c179.css.map",
+    "main.570f9507.js.map": "/portfolio/static/js/main.570f9507.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae98c25.css",
-    "static/js/main.2f5d4a9d.js"
+    "static/css/main.e100c179.css",
+    "static/js/main.570f9507.js"
   ]
 }
