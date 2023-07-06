@@ -7,7 +7,7 @@ BrowserMatch ^Mozilla/4\.0[678] no-gzip
 BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 #ne pas mettre en cache si ces fichiers le sont déjà
-SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|webp)$ no-gzip
 #les proxies doivent donner le bon contenu
 Header append Vary User-Agent env=!dont-vary
 
@@ -19,6 +19,7 @@ Header append Vary User-Agent env=!dont-vary
  ExpiresByType image/jpeg "access plus 2592000 seconds"
  ExpiresByType image/png "access plus 2592000 seconds"
  ExpiresByType image/gif "access plus 2592000 seconds"
+ ExpiresByType image/webp "access plus 2592000 seconds"
  AddType image/x-icon .ico
  ExpiresByType image/ico "access plus 2592000 seconds"
  ExpiresByType image/icon "access plus 2592000 seconds"
@@ -35,7 +36,7 @@ Header append Vary User-Agent env=!dont-vary
 
 # BEGIN Cache-Control Headers
 <IfModule mod_headers.c>
- <FilesMatch "\\.(ico|jpe?g|png|gif|swf|gz|ttf)$">
+ <FilesMatch "\\.(ico|jpe?g|png|webp|gif|swf|gz|ttf)$">
  Header set Cache-Control "max-age=2592000, public"
  </FilesMatch>
  <FilesMatch "\\.(css)$">
