@@ -1,4 +1,4 @@
-import { Card, Col, Text } from "@nextui-org/react";
+import { css, Card, Col, Text } from "@nextui-org/react";
 import { useState } from "react";
 import styles from "./card.module.css";
 import Booki from "../../images/Booki.webp";
@@ -76,7 +76,7 @@ function MyCard() {
             key={projetKey}
             onClick={() => handleClick(projetKey)}
           >
-            <Card className={isActive ? styles.activeCard : ''}>
+            <Card className={isActive ? styles.activeCard : ''} css={isActive ? { height:'200px' } : '' }>
               {!isActive && (
                 <Card.Header className={styles.header}r>
                   <Col>
