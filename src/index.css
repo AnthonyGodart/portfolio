@@ -5,10 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../src/images/Background.webp');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-color: rgba(48, 48, 48, 0.9);
+  background-color: #232946;
   max-width: 1200px;
 }
 

@@ -1,5 +1,5 @@
 .background{
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #b8c1ec;
 }
 
 .topHeader{
@@ -7,12 +7,12 @@
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
-    color: #FFF;
+    color: #000;
 }
 .contact{
     display: flex;
     flex-direction: column;
-    color: #FFF;
+    color: #000;
     text-decoration: none;
 }
 .navBar{
@@ -22,7 +22,7 @@
 }
 
 .link{
-    background-color: rgb(255, 255, 255);
+    background-color: #eebbc3;
     padding: 10px;
     border-top: 2px solid black;
     border-left: 3px solid black;
@@ -30,7 +30,7 @@
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     text-align: center;
-    color: #FFF;
+    color: #232946;
     font-weight: 600;
     text-decoration: none;
 }

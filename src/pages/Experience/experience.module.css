@@ -12,9 +12,10 @@
 }
 
 .paragraph{
-    background-color: rgba(48, 48, 48, 0.7);
+    background-color: #b8c1ec;
     border-radius: 10px;
     padding: 10px;
     width: 80%;
     margin-bottom: 20px;
+    color: #000;
 }

@@ -22,22 +22,22 @@ function Header(){
         <div>
             <nav className={styles.navBar}>
                 <NavLink className={styles.link} style={({isActive}) => ({
-    backgroundColor: isActive ? "rgba(48, 48, 48, 0.9)" : "rgba(48, 48, 48, 0.7)",
+    backgroundColor: isActive ? "rgba(238, 187, 195, 0.9)" : "rgba(238, 187, 195, 0.7)",
     borderBottom: isActive ? "none" : "2px solid black",
     fontWeight: isActive ? "800" : "500"
   })} to="/">Présentation</NavLink>
                 <NavLink className={styles.link} style={({isActive}) => ({
-    backgroundColor: isActive ? "rgba(48, 48, 48, 0.9)" : "rgba(48, 48, 48, 0.7)",
+    backgroundColor: isActive ? "rgba(238, 187, 195, 0.9)" : "rgba(238, 187, 195, 0.7)",
     borderBottom: isActive ? "none" : "2px solid black",
     fontWeight: isActive ? "800" : "500"
   })} to="/Education">Formation</NavLink>
                 <NavLink className={styles.link} style={({isActive}) => ({
-    backgroundColor: isActive ? "rgba(48, 48, 48, 0.9)" : "rgba(48, 48, 48, 0.7)",
+    backgroundColor: isActive ? "rgba(238, 187, 195, 0.9)" : "rgba(238, 187, 195, 0.7)",
     borderBottom: isActive ? "none" : "2px solid black",
     fontWeight: isActive ? "800" : "500"
   })} to="/Experience">Expérience pro.</NavLink>
                 <NavLink className={styles.link} style={({isActive}) => ({
-    backgroundColor: isActive ? "rgba(48, 48, 48, 0.9)" : "rgba(48, 48, 48, 0.7)",
+    backgroundColor: isActive ? "rgba(238, 187, 195, 0.9)" : "rgba(238, 187, 195, 0.7)",
     borderBottom: isActive ? "none" : "2px solid black",
     fontWeight: isActive ? "800" : "500"
   })} to="/Achievements">Réalisations</NavLink>

@@ -1,4 +1,4 @@
-import { css, Card, Col, Text } from "@nextui-org/react";
+import { Card, Col, Text } from "@nextui-org/react";
 import { useState } from "react";
 import styles from "./card.module.css";
 import Booki from "../../images/Booki.webp";
