@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.faabe3df.css",
+    "main.js": "/portfolio/static/js/main.18a33673.js",
+    "static/media/Kasa.webp": "/portfolio/static/media/Kasa.b9317ca15e4755057711.webp",
+    "static/media/MonVieuxGrimoire.webp": "/portfolio/static/media/MonVieuxGrimoire.441d5bc946060f3beb3e.webp",
+    "static/media/SophieBluel.webp": "/portfolio/static/media/SophieBluel.922802a32ec61399e3e1.webp",
+    "static/media/Booki.webp": "/portfolio/static/media/Booki.7d92893b1196716ed1cc.webp",
+    "static/media/NinaCarducci.webp": "/portfolio/static/media/NinaCarducci.b7cf2d9b8df6086bbf30.webp",
+    "static/media/1659179647187-removebg-preview.webp": "/portfolio/static/media/1659179647187-removebg-preview.fdd74d93f2491a413639.webp",
+    "static/media/Portfolio.webp": "/portfolio/static/media/Portfolio.10f20644a9fd58c7e59f.webp",
+    "index.html": "/portfolio/index.html",
+    "main.faabe3df.css.map": "/portfolio/static/css/main.faabe3df.css.map",
+    "main.18a33673.js.map": "/portfolio/static/js/main.18a33673.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faabe3df.css",
+    "static/js/main.18a33673.js"
+  ]
+}
