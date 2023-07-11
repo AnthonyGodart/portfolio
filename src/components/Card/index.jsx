@@ -141,7 +141,7 @@ function MyCard() {
     objectFit="cover"
     width="100%"
     height={isHovered ? 250 : 150}
-    alt=`${projet.title} background``
+    alt={`${projet.title} background`}
   />
   {isHovered && (
     <Card.Footer className={styles.footer}>
