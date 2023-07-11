@@ -13,7 +13,7 @@ function Experience(){
                 <p>
                 <span>Consult'Auto</span> <br/>
                 <span>2021-2023</span> <br/>
-                Consulting autour de l'automobile.
+                ↪ Consulting autour de l'automobile.
                 </p>
             </article>
             <article className={styles.paragraph}>
@@ -21,7 +21,7 @@ function Experience(){
                 <p>
                 <span>Tranchard SARL</span> <br/>
                 <span>2019-2021</span> <br/>
-                Interventions SAV et préparation de matériels agricoles.
+                ↪ Interventions SAV et préparation de matériels agricoles.
                 </p>
             </article>
             <article className={styles.paragraph}>
@@ -29,7 +29,7 @@ function Experience(){
                 <p>
                 <span>Feu Vert Services</span> <br/>
                 <span>2017-2019</span> <br/>
-                Management, entretien et diagnostic de véhicules automobiles.
+                ↪ Management, entretien et diagnostic de véhicules automobiles.
                 </p>
             </article>
             <article className={styles.paragraph}>
@@ -37,7 +37,7 @@ function Experience(){
                 <p>
                 <span>Norauto</span> <br/>
                 <span>2012-2017</span> <br/>
-                Entretien et diagnostic de véhicules automobiles
+                ↪ Entretien et diagnostic de véhicules automobiles
                 </p>
             </article>
         </main>
