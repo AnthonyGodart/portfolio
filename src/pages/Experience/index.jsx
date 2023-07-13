@@ -6,7 +6,10 @@ function Experience(){
             <h3 className={styles.title}>Expérience Professionnelle</h3>
             <article className={styles.paragraph}>
                 <h4>Développeur Junior</h4>
-                <p></p>
+                <p>
+                <span>Formation Développeur Web OpenClassrooms</span> <br/>
+                <span>Depuis 2023</span> <br/>
+                </p>
             </article>
             <article className={styles.paragraph}>
                 <h4>Consultant technique - Freelance</h4>
