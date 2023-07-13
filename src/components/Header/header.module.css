@@ -47,3 +47,9 @@
         white-space: nowrap;
     }
 }
+
+@media screen and (max-width: 420px){
+    .topHeader{
+        justify-content: center;
+    }
+}
