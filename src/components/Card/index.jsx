@@ -7,6 +7,7 @@ import NinaCarducci from "../../images/NinaCarducci.webp";
 import Kasa from "../../images/Kasa.webp";
 import MonVieuxGrimoire from "../../images/MonVieuxGrimoire.webp";
 import Portfolio from "../../images/Portfolio.webp";
+import MaSonnette from "../../images/Sonnette.webp";
 
 const data = {
   projet1: {
@@ -45,6 +46,12 @@ const data = {
     description: "Portfolio d'Anthony Godart",
     image: `${Portfolio}`,
   },
+  projet7: {
+    title: "Ma Sonnette",
+    link: "",
+    description: "Side-project d'une sonnette via QR Code.",
+    image: `${MaSonnette}`,
+  },
 };
 
 function MyCard() {
@@ -70,12 +77,12 @@ function MyCard() {
       {Object.keys(data).map((projetKey) => {
         const projet = data[projetKey];
         const isActive = projetKey === activeCard;
+        
 
         return (
           <div
             key={projetKey}
-            onClick={() => handleClick(projetKey)}
-          >
+            onClick={() => handleClick(projetKey)}>
             <Card className={isActive ? styles.activeCard : ''} css={isActive ? { height:'200px' } : '' }>
               {!isActive && (
                 <Card.Header className={styles.header}r>
@@ -96,7 +103,7 @@ function MyCard() {
               {isActive && (
                 <Card.Footer className={styles.footer}>
                   <Text>
-                    <a className={styles.cardLink} href={projet.link}>
+                    <a className={styles.cardLink} href={projet.link!==""? projet.link : null}>
                       {projet.description}
                     </a>
                   </Text>
@@ -118,7 +125,7 @@ function MyCard() {
 
         return (
           <a
-            href={projet.link}
+            href={projet.link!==""? projet.link : null}
             target="_blank"
             rel="noreferrer"
             className={styles.cardLink}
