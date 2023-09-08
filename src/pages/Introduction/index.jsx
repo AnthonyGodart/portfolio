@@ -13,7 +13,7 @@ function Introduction(){
             Je suis prêt à apporter ma passion, ma créativité et ma rigueur pour contribuer au succès de votre entreprise.
             </p>
             <p className={styles.paragraph}>
-            Je suis disponible immédiatement pour relever de nouveaux défis et je suis prêt à me déplacer dans la région Auvergne-Rhône-Alpes, sous certaines conditions.  <br />
+            Je suis disponible immédiatement pour relever de nouveaux défis et je suis prêt à me déplacer, sous certaines conditions.  <br />
             Je suis convaincu que ma solide expérience professionnelle combinée à ma motivation et ma volonté d'apprendre font de moi un candidat idéal pour rejoindre votre équipe.
             </p>
             <p className={styles.paragraph}>
