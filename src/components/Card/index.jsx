@@ -48,7 +48,7 @@ const data = {
   },
   projet7: {
     title: "Ma Sonnette",
-    link: "",
+    link: "https://github.com/AnthonyGodart/qr_ringer/blob/main/README.md",
     description: "Side-project d'une sonnette via QR Code.",
     image: `${MaSonnette}`,
   },
