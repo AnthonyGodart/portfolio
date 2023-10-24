@@ -8,6 +8,7 @@ import Kasa from "../../images/Kasa.webp";
 import MonVieuxGrimoire from "../../images/MonVieuxGrimoire.webp";
 import Portfolio from "../../images/Portfolio.webp";
 import MaSonnette from "../../images/Sonnette.webp";
+import SuspendedCoffee from "../../images/SuspendedCoffee.webp";
 
 const data = {
   projet1: {
@@ -49,8 +50,14 @@ const data = {
   projet7: {
     title: "Ma Sonnette",
     link: "https://github.com/AnthonyGodart/qr_ringer/blob/main/README.md",
-    description: "Side-project d'une sonnette via QR Code.",
+    description: "Side-project d'une sonnette via QR Code. Découverte autodidacte de React Native, Expo, One Signal.",
     image: `${MaSonnette}`,
+  },
+  projet8: {
+    title: "Le Café Suspendu",
+    link: "",
+    description: "Side-project pour afficher des établissements qui pratiquent le café suspendu. Découverte en autodidacte de PHP.",
+    image: `${SuspendedCoffee}`,
   },
 };
 
