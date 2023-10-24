@@ -5,7 +5,7 @@ function Education(){
         <main className={styles.container}>
             <h3 className={styles.title}>Formation</h3>
             <article className={styles.paragraph}>
-                <h4>Bac + 2 - Développeur Web 2023 </h4>
+                <h4>Bac + 2 - Développeur Intégrateur Web 2023 </h4>
                 <p>
                 ↪ Création d'une page d'accueil d'agence de voyage avec HTML et CSS <br />
                 ↪ Création d'une page web dynamique avec Javascript <br />
