@@ -63,7 +63,7 @@ const data = {
   projet9: {
     title: "Numeric to String converter",
     link: 'https://github.com/AnthonyGodart/NumToStr.git',
-    description: "Outil pour convertir un nombre de sa version numérique à sa version toutes lettres";
+    description: "Outil pour convertir un nombre de sa version numérique à sa version toutes lettres",
     image: `${Converter}`
   },
 };
