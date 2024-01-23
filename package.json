@@ -41,5 +41,16 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
+  },
+  "description": "",
+  "main": "index.jsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyGodart/portfolio.git"
+  },
+  "author": "Anthony GODART",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyGodart/portfolio/issues"
   }
 }
