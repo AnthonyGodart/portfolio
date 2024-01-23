@@ -8,7 +8,7 @@ function Header(){
         <div className={styles.topHeader}>
             <div>
                 <h1>Anthony GODART</h1>
-                <h2> Développeur Web Junior</h2>
+                <h2> Développeur Back-end JS / PHP</h2>
                 <p className={styles.contact}> 7 rue d'Ezige, <br />
                 07800 Charmes-sur-Rhône <br/>
                 <hr style={{opacity:"0"}}/>
