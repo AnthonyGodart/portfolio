@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.57880281.css",
-    "main.js": "/portfolio/static/js/main.1aa42dfe.js",
+    "main.css": "/portfolio/static/css/main.77d2f426.css",
+    "main.js": "/portfolio/static/js/main.183a1ac4.js",
     "static/media/Kasa.webp": "/portfolio/static/media/Kasa.b9317ca15e4755057711.webp",
     "static/media/MonVieuxGrimoire.webp": "/portfolio/static/media/MonVieuxGrimoire.441d5bc946060f3beb3e.webp",
     "static/media/SophieBluel.webp": "/portfolio/static/media/SophieBluel.922802a32ec61399e3e1.webp",
@@ -14,11 +14,11 @@
     "static/media/Sonnette.webp": "/portfolio/static/media/Sonnette.2275f664ce31e6a22366.webp",
     "static/media/findmycar.webp": "/portfolio/static/media/findmycar.5fff407d01ee67d8aff0.webp",
     "index.html": "/portfolio/index.html",
-    "main.57880281.css.map": "/portfolio/static/css/main.57880281.css.map",
-    "main.1aa42dfe.js.map": "/portfolio/static/js/main.1aa42dfe.js.map"
+    "main.77d2f426.css.map": "/portfolio/static/css/main.77d2f426.css.map",
+    "main.183a1ac4.js.map": "/portfolio/static/js/main.183a1ac4.js.map"
   },
   "entrypoints": [
-    "static/css/main.57880281.css",
-    "static/js/main.1aa42dfe.js"
+    "static/css/main.77d2f426.css",
+    "static/js/main.183a1ac4.js"
   ]
 }
