@@ -3,8 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 function Footer(){
 
-    const currentDate = new Date();
-    const currentYear = currentDate.getFullYear();
+    const currentYear = new Date().getFullYear();
 
     return (
         <footer className={styles.footer}>
