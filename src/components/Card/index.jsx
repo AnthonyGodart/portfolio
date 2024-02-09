@@ -69,8 +69,8 @@ const data = {
   },
   projet10: {
     title: "Find my Car",
-    link: 'https://github.com/AnthonyGodart/findmycar.git',
-    description: "Web app pour enregistrer la position de stationnement de son véhicule pour pouvoir le retrouver plus tard.",
+    link: 'https://github.com/AnthonyGodart/findmycar.wiki.git',
+    description: "Progressive web app open-source pour enregistrer la position de stationnement de son véhicule pour pouvoir le retrouver plus tard.",
     image: `${FindmyCar}`
   },
 };

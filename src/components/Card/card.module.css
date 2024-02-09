@@ -18,6 +18,7 @@ p:has(> .cardLink){
 }
 
 .cardLink{
+    transition: transform 0.3s ease;
     text-decoration: none;
     color: black;
 }
